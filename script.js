@@ -23,8 +23,6 @@ function clearAll(){
 
 $(".button").on("click", function(){
    var selector = $(this.children[0]);
-   
-    
      $(".output").append(parseInt(selector.text()))
 })
 
@@ -51,7 +49,7 @@ $(".operator").on("click", function(){
         firstNumber = result;
     }
     
-    // emptyInput()
+    emptyInput()
     
 })
 
